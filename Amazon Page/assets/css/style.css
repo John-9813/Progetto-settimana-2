@@ -1,0 +1,160 @@
+/* Your styles here */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EAEDED;
+}
+
+header {
+    background-color: #222F3F;
+    color: white;
+
+}
+
+.logoHead {
+    margin-top: 0.8em;
+    padding-left: 2em;
+    width: 9vw;
+}
+
+nav {
+    background-color: #364759;
+    margin-top: 1em;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 1em;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 0.5em;
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+}
+
+main {
+margin: 2em;
+overflow: hidden;
+}
+
+.bar1 {
+    background-color: #F56600;
+    color: #FCDDC4;
+    text-align: center;
+    padding: 0.7em;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.bar2 {
+    background-image: url(../images/bg-image.png);
+    background-size: 90vw;
+    height: 28vh;
+    text-align: center;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.bar2 h1 {
+    padding-top: 2em;
+    font-size: 2.5rem;
+}
+
+.bar2 p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sidebar {
+    background-color: white;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+
+.sidebar h3 {
+    font-size: 1.7em;
+}
+
+.sidebar p {
+    font-size: 1.2em;
+    color: #3c8086;
+    font-weight: bolder;
+}
+
+.sidebar h3, p {
+    margin: 0.5em;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.sidebar img {
+    height: 55vh;
+    width: 20vw;
+    display: inline-block;
+    margin: 0 1.5em;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 5px 5px 8px 8px #EAEDED;
+    align-content: space-around;
+}
+
+.image-container{
+    text-align: center;
+}
+
+.last-main {
+    text-align: center;
+    padding: 1.5em;
+}
+
+.last-main h3, p {
+    margin: 0 0.5em 2em;
+    display: inline-block;
+}
+
+.last-main h3 {
+    font-size: 1.7em;
+}
+
+.last-main p {
+    font-size: 1.2em;
+    color: #3c8086;
+    font-weight: bolder;
+}
+
+.last-main img {
+    object-fit: cover;
+}
+
+footer {
+    background-color: #222F3F;
+    text-align: center;
+    height: 35vh;
+    width: 100%;
+}
+
+footer img {
+    max-width: 13vw;
+}
+
+footer a {
+    color: white;
+
+}
+
+.back {
+    background-color: #364759;
+    margin-bottom: 3em;
+    padding: 1em;
+    font-size: 1.5em;
+    width: 100%; 
+    box-sizing: border-box; 
+}
